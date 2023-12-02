@@ -14,7 +14,7 @@ fetch('products.json')
     // console.log(json);
     initialize(json)
 })
-  .catch( err => console.error(`Fetch problem: ${err.message} || ${error.stack}`) );
+  .catch( err => console.error(`Fetching problem: ${err.message} || ${error.stack}`) );
 
 // sets up the app logic, declares required variables, contains all the other functions
 function initialize(products) {
